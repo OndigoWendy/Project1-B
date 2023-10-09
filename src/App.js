@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+import Wendy_Profile from './Wendy_Profile.jpg';
 import './App.css';
+import { Navbar } from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
+        <Navbar />
       <header className="App-header">
         <h1>My Portfolio</h1>
         <br></br>
+        <img src={Wendy_Profile} alt="logo" className='logo'/>
         <p> My name is <b>Wendy Ondigo.</b>
           <br></br>
           I am a fun senior web developer at microsoft. I recently graduated from KU and Moringa School and have taken up a role of mentoring young software developers.
