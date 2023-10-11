@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+.logo {
+  width: 200px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,8 +20,11 @@
 }
 
 .App-header {
-  background-color: #03405aef;
-  min-height: 100vh;
+  /* background-color: #03405aef; */
+  background-image: url(./pexels-photo-1933900.webp);
+  background-size: cover;
+  background-position: center;
+    min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
