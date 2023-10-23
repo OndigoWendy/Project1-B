@@ -7,8 +7,9 @@ export const Home = () => {
     <div className="App">
       <header className="App-header">
         <h1>Home of SWE.</h1>
+        <img src={Wendy_Profile} alt="logo" className="logo" />  
         <br></br>
-        <img src={Wendy_Profile} alt="logo" className="logo" />
+            
         <p> We Learn great ways to code Everyday.</p>
         <br></br>
 

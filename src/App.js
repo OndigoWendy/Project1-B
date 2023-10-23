@@ -3,7 +3,7 @@ import { Navbar } from "./components/Navbar";
 import { Home } from "./components/Home";
 import { About } from "./components/About";
 import { Route, Routes } from "react-router-dom";
-import { Contact } from "./components/Contact";
+import { Contact } from "./components/Contacts";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 
